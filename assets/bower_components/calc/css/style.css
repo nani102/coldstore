@@ -1,0 +1,63 @@
+@import url(https://fonts.googleapis.com/css?family=Quicksand:400,700);
+body {
+  text-align: center;
+  background: -webkit-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Safari */
+  background: -o-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Opera */
+  background: -moz-linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Mozilla */
+  background: linear-gradient(to top right, #4d48c0, #56BF6D);
+  /* Standard */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+button:focus {outline:0;}
+
+#calculator {
+  font-family: "Quicksand", sans-serif;
+  margin: 60px auto;
+  padding: 0;
+  width: 300px;
+  background-color: #1D1E22;
+}
+
+#screen {
+  height: 150px;
+  width: auto;
+  background-color: #4269F4;
+  color: whitesmoke;
+}
+
+#screen #calc {
+  padding-top: 30px;
+  font-size: 20px;
+}
+
+#screen #result {
+  font-size: 50px;
+}
+
+.value,
+.equals,
+.C,
+.CE {
+  margin: 0;
+  width: 75px;
+  height: 60px;
+  font-size: 25px;
+  background-color: #1D1E22;
+  color: white;
+  border: none;
+}
+
+.value:hover,
+.equals:hover,
+.C:hover,
+.CE:hover {
+  font-size: 25px;
+  background-color: #1a1a1a;
+  color: whitesmoke;
+  border: none;
+}
